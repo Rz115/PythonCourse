@@ -33,6 +33,7 @@ numerorandom = 30.6
 num1 = 20
 num2 = 30.5
 num1 = num1 + num2
+#print(num1)
 
 #Conversiones explicitas cambiando de float a integer
 numero1 = 5.8
@@ -56,10 +57,10 @@ x = 10
 y = 5
 #manera old
 #print("Mis numeros son " + str(x) + " y " + str(y))
-#manera practica
+#manera 1 funcion format
 #print("Mis numeros son  {} y {}".format(x,y))
-#print("La suma de {} y  {} es igual a {}".format(x,y,y+x))
-#Segunda manera de hacerlo
+print("La suma de {} y  {} es igual a {}".format(x,y,y+x))
+#Segunda manera de hacerlo llamadas CADENAS LITERALES"
 color = "Azul"
 matricula = 16456450
 print(f"\nEl auto es {color} y su matricula es {matricula}\n")
@@ -76,4 +77,8 @@ num2 = "10"
 puntos_anteriores = 875
 puntos_nuevos = 350
 puntos_totales = puntos_nuevos + puntos_anteriores
-print(f"Has ganado {puntos_nuevos} puntos! En total, acumulas {puntos_totales} puntos")
+#print(f"Has ganado {puntos_nuevos} puntos! En total, acumulas {puntos_totales} puntos")
+
+nombre_asociado = "Raul Martos"
+numero_asociado = 13560339
+print(f"Estimado/a {nombre_asociado}, su número de asociado es: {numero_asociado}")
