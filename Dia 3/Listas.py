@@ -2,11 +2,12 @@
 listas dentro de listas, indexarlas, fraccionarlas, etc '''
 mi_lista = ['comida', 'b', 'C', 5, 66, 23]
 resultado = len(mi_lista)
-#print(resultado)
+print(resultado)
 print(mi_lista)
 
 #indexar tambien una lista , buscar caracter o recorrer una lista
 resultado2 = mi_lista[0]
+print(resultado2)
 resultado3 = mi_lista[0:4]
 print(resultado3)
 
@@ -53,3 +54,7 @@ letras = [letra1, letra1, letra1]
 
 listas = ['in', 'as', 'if', 'be']
 print(listas[1:][:2])
+
+mi_lista = [1, 2, 3, 4]
+mi_lista[1:3] = [0, 0, 0]
+print(mi_lista)
