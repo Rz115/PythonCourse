@@ -81,7 +81,26 @@ pro = promedio(lista_reducida)
 resultado = f"el promedio de la lista es {pro}"
 
 # Ejercicio 3
+lista_numeros = [1, 2, 3, 4, 5]
 
+
+def lanzar_moneda():
+    return choice(['Cara', 'Cruz'])
+
+
+def probar_suerte(lanzamiento, lista):
+    if lanzamiento == 'Cara':
+        lista.clear()
+        print("La lista se autodestruirá")
+        return lista
+    else:
+        print("La lista fue salvada")
+        return lista
+
+
+monedalanzada = lanzar_moneda()
+resultado = probar_suerte(monedalanzada, lista_numeros)
+print(resultado)
 
 
 
